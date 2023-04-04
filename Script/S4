@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <img id="demo" scr="scream.png">
+        <script>
+            document.getElementById("demo").scr="smiley.gif";
+        </script>
+    </body>
+</html>

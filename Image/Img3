@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Img</h1>
+        <p>
+            <img src="smiley.gif" style="float: right;">
+            This is a paragraph
+            This paragraph contains an image
+        </p>
+        </a>  
+    </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Table</h1>
+        <p>
+            <table>
+                <caption>Name</caption>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Point</th>
+                </tr>
+                <tr>
+                    <td>Jill</td>
+                    <td>Smith</td>
+                    <td>50</td>
+                </tr>
+            </table>
+        </p>
+    </body>
+</html>

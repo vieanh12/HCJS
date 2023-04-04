@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>The alt Attribute</h2>
+        <p>The alt attribute should reflect the img content, so user who cannot see the img get an understanding of what the img contains:</p>
+        <img src="w3schools.png" alt="w3schools Logo">
+    </body>
+</html>

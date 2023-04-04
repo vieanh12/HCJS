@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>HTML Links</h1>
+        <p>
+            <a href="html_images.asp" style="text-decoration: none;">HTML Images</a>
+        </p>
+    </body>
+</html>

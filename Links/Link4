@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>HTML Links</h1>
+        <p>
+            <a href="default.html"><img src="smiley.gif"></a>
+        </p>
+    </body>
+</html>

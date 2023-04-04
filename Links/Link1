@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>HTML Links</h1>
+        <p>
+            <a href="default.html">Visis our HTML tutorial.</a>
+        </p>
+    </body>
+</html>
