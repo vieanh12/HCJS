@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="demo"></p>
+        <script>
+            var  x = 10;
+            // Here x is 10
+            {  
+            var x = 2;
+            // Here x is 2
+            }
+            // Here x is 2
+            document.getElementById("demo").innerHTML = x;
+        </script>
+    </body>
+    <body>
+        <p id="demo1"></p>
+        <script>
+            var x = 2;
+            // Now x is 2
+            var x = 3;
+            // Now x is 3
+            document.getElementById("demo").innerHTML = x;
+        </script>
+    </body>
+    <body>
+        <p id="demo2"></p>
+
+        <script>
+            let x = 2;// Allowed
+            {
+            let x = 3;// Allowed
+            }
+            {
+            let x = 4;// Allowed
+            }
+        document.getElementById("demo").innerHTML = x;
+        </script>
+    </body>
+    <body>
+        <p id="demo3"></p>
+        <script>
+            carName = "Volvo";
+            document.getElementById("demo3").innerHTML = carName;
+            var carName;
+        </script>
+    </body>
+</html>

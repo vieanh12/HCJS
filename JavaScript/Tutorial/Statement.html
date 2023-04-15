@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <h1>JS Statement</h1>
+    <p>A <b>JS program</b> is a list of <b>Statements</b> to be executed by a computer.</p>
+    <p id="demo"></p>
+    <script>
+        let x, y, z;
+        x = 5;
+        y = 6;
+        z = x + y;
+        document.getElementById("demo").innerHTML = "The value of z is " + z + ".";
+    </script>
+    <p id="demo1"></p>
+    <script>
+        document.getElementById("demo1").innerHTML = "Hello Dolly"
+        
+    </script>
+    <button type="button" onclick="myFunction()">Click Me!</button>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <script>
+    function myFunction() {
+      document.getElementById("demo2").innerHTML = "Hello Dolly!";
+      document.getElementById("demo3").innerHTML = "How are you?";
+    }
+    </script>
+</html>
