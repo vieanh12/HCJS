@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <h1>Return a CSS Property</h1>
+        <head>  
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    alert("Background color = " + $("p").css("background-color"));
+                });
+            });
+        </script>
+        </head>
+        <body></body>
+            <h2>This is a heading</h2>
+            <p style="background-color:#ff0000">This is a paragraph.</p>
+            <p style="background-color:#00ff00">This is a paragraph.</p>
+            <p style="background-color:#0000ff">This is a paragraph.</p>
+            <button>Return background-color of p</button>
+        </body>
+
+    <h1>Set a CSS Property</h1>
+    <head>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("p").css("background-color", "yellow");
+            });
+        });
+        </script>
+        </head>
+        <body>
+            <h2>This is a heading</h2>
+            <p style="background-color:#ff0000">This is a paragraph.</p>
+            <p style="background-color:#00ff00">This is a paragraph.</p>
+            <p style="background-color:#0000ff">This is a paragraph.</p>
+            <p>This is a paragraph.</p>
+            <button>Set background-color of p</button>
+        </body>
+
+    <h1>Set Multiple CSS Properties</h1>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("p").css({"background-color": "yellow", "font-size": "200%"});
+            });
+        });
+        </script>
+        </head>
+        <body>
+            <h2>This is a heading</h2>
+            <p style="background-color:#ff0000">This is a paragraph.</p>
+            <p style="background-color:#00ff00">This is a paragraph.</p>
+            <p style="background-color:#0000ff">This is a paragraph.</p>
+            <p>This is a paragraph.</p>
+            <button>Set multiple styles for p</button>
+        </body>
+</html>

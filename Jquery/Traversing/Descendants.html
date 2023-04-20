@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <h1>Children</h1>
+        <head>
+        <style>
+            .descendants * { 
+                display: block;
+                border: 2px solid lightgrey;
+                color: lightgrey;
+                padding: 5px;
+                margin: 15px;
+            }
+        </style>
+        <script>
+            $(document).ready(function(){
+                $("div").children("p.first").css({"color": "red", "border": "2px solid red"});
+            });
+        </script>
+        </head>
+        <body>
+            <div class="descendants" style="width:500px;">div (current element) 
+            <p class="first">p (child)
+                <span>span (grandchild)</span>   
+            </p>
+            <p class="second">p (child)
+                <span>span (grandchild)</span>
+            </p> 
+            </div>
+        </body>
+
+    <h1>FindMethod</h1>
+        <head>
+            <style>
+                .descendants * { 
+                    display: block;
+                    border: 2px solid lightgrey;
+                    color: lightgrey;
+                    padding: 5px;
+                    margin: 15px;
+                }
+            </style>
+            <script>
+                $(document).ready(function(){
+                    $("div").find("*").css({"color": "red", "border": "2px solid red"});
+                });
+            </script>
+            </head>
+            <body>
+                <div class="descendants" style="width:500px;">div (current element) 
+                <p>p (child)
+                    <span>span (grandchild)</span>   
+                </p>
+                <p>p (child)
+                    <span>span (grandchild)</span>
+                </p> 
+                </div>
+            </body>
+</html>
