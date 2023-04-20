@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <h1>Function</h1>
+    <h2>Function Return</h2>
+        <p id="demo"></p>
+        <script>
+            var x = myFunction(4, 3);
+            document.getElementById("demo").innerHTML = x;
+            function myFunction(a, b) {
+            return a * b;
+            }
+        </script>
+    <h2>Local</h2>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+        <script>
+            myFunction();
+            function myFunction() {
+                let carName = "Volvo";
+                document.getElementById("demo1").innerHTML = typeof carName + " " + carName;
+                }
+            document.getElementById("demo2").innerHTML = typeof carName;
+        </script>
+</html>
